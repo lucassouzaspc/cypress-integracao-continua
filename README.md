@@ -24,9 +24,7 @@ Para executá-lo em modo headless npm run cy:run:cucumber
 
 # Relatórios
 
-Para gerar relatórios, foram usados dois reports generators:
-
-Mochawesome e Cucumber HTML Reports
+Para gerar relatórios, foram usados dois reports generators o Mochawesome e Cucumber HTML Reports
 
 Gerando relatório com Mochawesome:
 
