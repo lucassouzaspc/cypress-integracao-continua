@@ -43,7 +43,7 @@ jobs:
      
       # Publicar o relatorio em html
       - name: Deply to GithubPgaes
-        uses: JamesIves/github-pages-deploy-action@3.5.9
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages 
