@@ -24,7 +24,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checkout do codigo do projeto
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.1.2
       
       # Setup do Node.JS
       - name: Setup Node.js environment
