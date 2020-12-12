@@ -24,11 +24,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checkout do codigo do projeto
-      - uses: actions/checkout@v2.1.2
+      - uses: actions/checkout@v2
       
       # Setup do Node.JS
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v1.4.3 
+      - name: Setup Node.js
+        uses: actions/setup-node@v2.1.2 
         with:
           node-version: ${{ matrix.node-version }}
 
